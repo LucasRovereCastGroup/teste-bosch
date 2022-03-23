@@ -1,0 +1,50 @@
+<section id="sec1">
+  <div class="mt-5 d-flex justify-content-center align-items-center">
+    <h1 class="title">Teste Bosch</h1>
+  </div>
+
+  <div class="container mt-4">
+    <div class="d-flex justify-content-center align-items-center">
+      <img id="bosch-logo1" width="70%" src="{{firstContentSec?.img}}">
+    </div>
+    <div class="mt-5">
+      <p *ngFor="let t of firstContentSec?.texts">
+        {{t}}
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<section id="sec2">
+  <div class="container mt-5">
+    <div class="d-flex justify-content-center align-items-center">
+      <img id="bosch-logo2"  width="70%" src="{{secondContentSec?.img}}">
+    </div>
+
+    <div *ngFor="let t of secondContentSec?.texts" class="mt-5">
+      <h3>{{t?.title}}</h3>
+
+      <div class="mt-1">
+        <p>{{t?.desc}}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="sec3" class="mb-5">
+  <div class="container mt-5">
+    <div class="d-flex justify-content-center align-items-center">
+      <img id="bosch-logo3" width="70%" src="{{thirdContentSec?.img}}">
+    </div>
+
+    <div class="mt-5">
+      <h3>{{thirdContentSec?.text?.title}}</h3>
+    </div>
+
+    <div class="mt-1">
+      <p>{{thirdContentSec?.text?.desc}}</p>
+    </div>
+  </div>
+</section>

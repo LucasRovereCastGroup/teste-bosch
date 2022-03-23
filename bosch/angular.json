@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "teste-bosch": "apps/teste-bosch",
+    "teste-bosch-e2e": "apps/teste-bosch-e2e"
+  }
+}

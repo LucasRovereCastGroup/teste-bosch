@@ -1,0 +1,21 @@
+.space {
+  flex: 1 1 auto;
+}
+
+.bosch-logo {
+  width: 150px;
+  cursor: pointer;
+}
+
+.profile {
+  color: rgb(230 46 45);
+  font-size: 40px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.text {
+  font-family: Franklin Gothic Medium, Franklin Gothic, ITC Franklin Gothic, Arial, sans-serif;
+  margin: 22px;
+  cursor: pointer;
+}

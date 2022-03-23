@@ -1,0 +1,24 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <img (click)="redirectToHome()"
+         id="profile-img"
+         src="assets/img/Bosch-Logo.png"
+         class="bosch-logo"
+    />
+    <span class="space"></span>
+    <a class="text" (click)="redirectToSection('sec1')">
+      Sessão 1
+    </a>
+
+    <a class="text" (click)="redirectToSection('sec2')">
+      Sessão 2
+    </a>
+
+    <a class="text" (click)="redirectToSection('sec3')">
+      Sessão 3
+    </a>
+    <mat-icon class="profile d-flex justify-content-center align-items-center" (click)="redirectToProfile()">
+      account_circle
+    </mat-icon>
+  </mat-toolbar-row>
+</mat-toolbar>
